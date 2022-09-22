@@ -217,10 +217,11 @@
 
 
 
-    .h2 {
+.h2 {
         font-size: 100px;}
 
-
+.list-item {
+        width: 300px;
 
 
 .center1 {
