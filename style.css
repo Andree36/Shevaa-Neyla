@@ -2,16 +2,16 @@
     background-color: rgb(88, 102, 25);
     width: auto;
     height: auto;
-    background-attachment: scroll;
+    background-attachment:scroll;
     padding: 2em 2em 2em 2em;
 
 }
 
 
-.line{
-    box-sizing:border-box ;
+.line {
+    box-sizing: border-box;
     border-width: 100%;
-    
+
 }
 
 
@@ -122,12 +122,12 @@
     display: flex;
     float: right;
     margin-right: 10%;
-    
-    
-    
+
+
+
 }
 
-.block{
+.block {
     inset-block: 100% 100%;
 }
 
@@ -136,22 +136,22 @@
     display: flex;
     float: left;
     margin-left: 10%;
-    
+
 }
 
-.box{
-    
-        border: 2px solid rgb(0, 0, 0);
-        height: 50%;
-        width: 100%;
-      }
-  
+.box {
+
+    border: 2px solid rgb(0, 0, 0);
+    height: 50%;
+    width: 100%;
+}
 
 
-  .button-back{
+
+.button-back {
     color: black;
-    
-  }
+
+}
 
 
 .link-button1 {
@@ -255,5 +255,3 @@
     grid-template-rows: 100px 100px 100px;
     gap: 10px;
 }
-
-
