@@ -2,63 +2,21 @@
     background-color: rgb(88, 102, 25);
     width: auto;
     height: auto;
-    background-attachment:scroll;
-    padding: 2em 2em 2em 2em;
+    background-attachment: scroll;
+    margin-top: 0px auto;
 
 }
-
-
-.line {
-    box-sizing: border-box;
-    border-width: 100%;
-
-}
-
 
 
 .hr-bottom {
-    margin-bottom: 7%;
-    margin-top: 7%;
+    margin-bottom: auto;
+    margin-top: auto;
 }
-
 
 
 .link-button-shevaa {
-    line-height: 100%;
-    vertical-align: middle;
-    border: 1px solid #000000;
-    border-radius: 0%, 5%;
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: solid;
-    font-size: large;
-    cursor: pointer;
-    margin-top: 1%;
-    font-size: 140%;
-    width: auto;
-}
-
-.link-button-shevaa:hover {
-    background-color: #7e7e7e;
-    color: black;
-    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
-
-}
-
-
-.margin-left-back {
-    margin-left: 0%;
-    margin-bottom: 0%;
-    margin-top: 0%;
-}
-
-.margin-left {
-    margin-left: 15%;
-    margin-bottom: 1%;
-}
-
-.link-button-neyla {
-    line-height: 110%;
+    position:sticky ;
+    line-height: 200%;
     vertical-align: middle;
     border: 1px #000000;
     border-radius: 0%, 5%;
@@ -69,7 +27,34 @@
     cursor: pointer;
     margin-top: 1%;
     font-size: 140%;
-    width: auto;
+    height: 10%;
+    width: 25%;
+}
+
+.link-button-shevaa:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
+
+}
+
+
+
+.link-button-neyla {
+    position:sticky ;
+    line-height: 200%;
+    vertical-align: middle;
+    border: 1px #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 140%;
+    height: 6%;
+    width: 25%;
 }
 
 .link-button-neyla:hover {
@@ -77,11 +62,6 @@
     color: black;
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
 
-}
-
-.margin-right {
-    margin-inline-start: 9%;
-    margin-bottom: 1%;
 }
 
 
@@ -119,39 +99,39 @@
 }
 
 .right {
+    position: relative;
     display: flex;
     float: right;
-    margin-right: 10%;
-
-
-
+    margin-right: 15%;
+    margin-top: 3%;
 }
 
-.block {
-    inset-block: 100% 100%;
-}
 
 
 .left {
+    position: relative;
     display: flex;
     float: left;
-    margin-left: 10%;
-
+    margin-left: 15%;
+    margin-top: 3%;
 }
-
-.box {
-
-    border: 2px solid rgb(0, 0, 0);
-    height: 50%;
-    width: 100%;
-}
-
 
 
 .button-back {
-    color: black;
-
-}
+        border:#000000 ;
+        color: rgb(255, 255, 255);
+        padding: 0% 0%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 130%;
+        background-color: #000000;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 120px;
+    }
+    
 
 
 .link-button1 {
@@ -223,35 +203,16 @@
 }
 
 .h1 {
-    display: flow-root;
     font-size: 325%;
     font-family: "Bodoni MT";
     color: rgb(0, 0, 0);
-    margin-bottom: -3%;
-    margin-top: -6%;
-
+    margin-bottom: 3%;
 }
 
-
-.h3-1 {
-    font-size: 150%;
-}
 
 .h3 {
-    margin-top: 0%;
-    font-size: 150%;
-}
-
-
-
-.center1 {
-    display: flex;
-    justify-content: center;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px;
-    gap: 10px;
+    position: relative ;
+    margin-top: 3%;
+    font-size: 120%;
+    
 }
