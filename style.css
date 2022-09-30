@@ -1,3 +1,6 @@
+/*HINTERGRUND*/
+
+
 .background-dark {
     background-color: rgb(88, 102, 25);
     width: auto;
@@ -8,36 +11,34 @@
 }
 
 
+/*SCHRIFTEN*/
+
+
+.h1 {
+    font-size: 325%;
+    font-family: "Bodoni MT";
+    color: rgb(0, 0, 0);
+    margin-bottom: 3%;
+}
+
+
+.h3 {
+    position: relative ;
+    margin-top: 3%;
+    font-size: 120%;    
+}
+
+
+/*EINTEILUNGSLINIE*/
+
+
 .hr-bottom {
     margin-bottom: auto;
     margin-top: auto;
 }
 
 
-.link-button-shevaa {
-    position:sticky ;
-    line-height: 200%;
-    vertical-align: middle;
-    border: 1px #000000;
-    border-radius: 0%, 5%;
-    background-color: #000000;
-    color: #ffffff;
-    text-decoration: solid;
-    font-size: large;
-    cursor: pointer;
-    margin-top: 1%;
-    font-size: 140%;
-    height: 10%;
-    width: 25%;
-}
-
-.link-button-shevaa:hover {
-    background-color: #7e7e7e;
-    color: black;
-    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
-
-}
-
+/* BUTTON STECKBIRIEF NEYLA*/
 
 
 .link-button-neyla {
@@ -57,6 +58,7 @@
     width: 25%;
 }
 
+
 .link-button-neyla:hover {
     background-color: #7e7e7e;
     color: black;
@@ -64,6 +66,37 @@
 
 }
 
+
+/* BUTTON STECKBIRIEF SHEVAA*/
+
+
+.link-button-shevaa {
+    position:sticky ;
+    line-height: 200%;
+    vertical-align: middle;
+    border: 1px #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 140%;
+    height: 10%;
+    width: 25%;
+}
+
+
+.link-button-shevaa:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
+
+}
+
+
+/* BUTTON UNSERE GESCHICHTE*/
 
 
 .link-button {
@@ -82,60 +115,17 @@
 }
 
 
-
-
 .link-button:hover {
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
-
 }
 
 
-.center {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1%;
-}
-
-.right {
-    position: relative;
-    display: flex;
-    float: right;
-    margin-right: 15%;
-    margin-top: 3%;
-}
-
-
-
-.left {
-    position: relative;
-    display: flex;
-    float: left;
-    margin-left: 15%;
-    margin-top: 3%;
-}
-
-
-.button-back {
-        border:#000000 ;
-        color: rgb(255, 255, 255);
-        padding: 0% 0%;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 130%;
-        background-color: #000000;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 120px;
-    }
-    
+/* BUTTON HUNDEKUMPELS UND CO*/
 
 
 .link-button1 {
-
     line-height: 150%;
     vertical-align: middle;
     border: 1px solid #000000;
@@ -150,12 +140,15 @@
     width: 70%;
 }
 
+
 .link-button1:hover {
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
 }
 
+
+/* BUTTON NEUSTE FOTOS AUF INSTAGRAM*/
 
 
 .link-button2 {
@@ -173,12 +166,15 @@
     width: 70%;
 }
 
+
 .link-button2:hover {
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
 }
 
+
+/* BUTTON SABINES HUNDEHALSBÄNDER & LEINEN SHOP*/
 
 
 .link-button3 {
@@ -196,23 +192,58 @@
     width: 70%;
 }
 
+
 .link-button3:hover {
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
 }
 
-.h1 {
-    font-size: 325%;
-    font-family: "Bodoni MT";
-    color: rgb(0, 0, 0);
-    margin-bottom: 3%;
+
+/*BUTTON ZURÜCK*/
+
+
+.button-back {
+    border:#000000 ;
+    color: rgb(255, 255, 255);
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 130%;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 120px;
 }
 
 
-.h3 {
-    position: relative ;
+/*POSITIONEN*/
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1%;
+}
+
+
+.right {
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 15%;
     margin-top: 3%;
-    font-size: 120%;
-    
 }
+
+
+.left {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+
