@@ -5,13 +5,20 @@
     height: auto;
     background-attachment: scroll;
     margin-top: 0px auto;
-
 }
 
 
 
 
 /*SCHRIFTEN*/
+
+
+h1{color: #000;}
+h2{color:#000}
+h3{color:#000}
+h4{color:#000}
+
+
 .h1 {
     font-size: 325%;
     font-family: "Bodoni MT";
