@@ -1,6 +1,4 @@
 /*HINTERGRUND*/
-
-
 .background-dark {
     background-color: rgb(88, 102, 25);
     width: auto;
@@ -11,9 +9,9 @@
 }
 
 
+
+
 /*SCHRIFTEN*/
-
-
 .h1 {
     font-size: 325%;
     font-family: "Bodoni MT";
@@ -26,13 +24,24 @@
     position: relative ;
     margin-top: 3%;
     font-size: 120%;
+    color: #ffffff;    
+}
+
+
+.h4 {
+    flex-direction: column;
+    margin-top: 3%;
+    font-size: 103%;
     color: #000000;    
 }
 
 
+.space{
+    margin-left: 10%;
+}
+
+
 /*EINTEILUNGSLINIE*/
-
-
 .hr-bottom {
     margin-bottom: auto;
     margin-top: auto;
@@ -40,9 +49,9 @@
 }
 
 
+
+
 /* BUTTON STECKBIRIEF NEYLA*/
-
-
 .link-button-neyla {
     position:sticky ;
     line-height: 200%;
@@ -56,7 +65,7 @@
     cursor: pointer;
     margin-top: 1%;
     font-size: 140%;
-    height: 6%;
+    height: 5%;
     width: 25%;
 }
 
@@ -69,9 +78,9 @@
 }
 
 
+
+
 /* BUTTON STECKBIRIEF SHEVAA*/
-
-
 .link-button-shevaa {
     position:sticky ;
     line-height: 200%;
@@ -85,22 +94,22 @@
     cursor: pointer;
     margin-top: 1%;
     font-size: 140%;
-    height: 10%;
+    height: 9%;
     width: 25%;
 }
 
 
 .link-button-shevaa:hover {
     background-color: #7e7e7e;
-    color: black;
+    color: rgb(0, 0, 0);
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
 
 }
 
 
+
+
 /* BUTTON UNSERE GESCHICHTE*/
-
-
 .link-button {
     line-height: 150%;
     vertical-align: middle;
@@ -124,9 +133,9 @@
 }
 
 
+
+
 /* BUTTON HUNDEKUMPELS UND CO*/
-
-
 .link-button1 {
     line-height: 150%;
     vertical-align: middle;
@@ -150,9 +159,9 @@
 }
 
 
+
+
 /* BUTTON NEUSTE FOTOS AUF INSTAGRAM*/
-
-
 .link-button2 {
     line-height: 150%;
     vertical-align: middle;
@@ -176,9 +185,9 @@
 }
 
 
+
+
 /* BUTTON SABINES HUNDEHALSBÄNDER & LEINEN SHOP*/
-
-
 .link-button3 {
     line-height: 150%;
     vertical-align: middle;
@@ -202,9 +211,9 @@
 }
 
 
+
+
 /*BUTTON ZURÜCK*/
-
-
 .button-back {
     border:#000000 ;
     color: rgb(255, 255, 255);
@@ -212,18 +221,25 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 130%;
+    font-size: 140%;
     background-color: #000000;
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 120px;
+    width: 140px;
 }
 
 
+.button-back:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+
+
 /*POSITIONEN*/
-
-
 .center {
     display: flex;
     justify-content: center;
@@ -249,3 +265,26 @@
 }
 
 
+.left-steck {
+    position: relative;
+    display: flex;
+    float: left;
+    margin-left: 0%;
+}
+
+
+.right-steck {
+    position: relative;
+    display: flex;
+    margin-left: 52%;
+}
+
+
+.top{
+    margin-top: 3%;
+}
+
+
+.flex{
+    display: flexb;
+}
