@@ -1,0 +1,345 @@
+html {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+
+
+}
+
+
+head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 1440px;
+}
+
+.background-dark {
+    background-color: rgb(88, 102, 25);
+    background-attachment: scroll;
+    margin-top: 0px;
+}
+
+
+main {
+    background-color: rgb(88, 102, 25);
+    min-height: auto;
+    max-height: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: headerHeight 0 0 0;
+}
+
+
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(88, 102, 25);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
+}
+
+
+
+h1 {
+    max-width: 1440px;
+    margin-top: 0%;
+    color: #000;
+}
+
+.h1 {
+    font-size: 150%;
+    color: #000000;
+}
+
+
+
+hr {
+    z-index: 1;
+    border-color: black;
+    border-style: solid;
+    margin-top: 0%;
+    box-sizing: border-box;
+    height: auto;
+    width: 1079.980px;
+}
+
+
+
+
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.border{
+    border:1px solid #000000;
+    position: sticky;
+}
+
+
+.inline {
+    display: inline-block;
+    
+    
+    
+}
+
+/* BUTTON STECKBIRIEF NEYLA*/
+
+.center {
+    justify-content: center;
+    margin-top: 0%;
+}
+
+.left {
+    margin-left: 12.5%;
+    margin-bottom: 0%;
+}
+
+
+
+
+
+.link-button-neyla {
+    min-width: 37.3%;
+    position: sticky;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+
+}
+
+.link-button-neyla:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
+    
+}
+
+/* BUTTON STECKBIRIEF SHEVAA*/
+
+
+
+
+.link-button-shevaa {
+    min-width: 37.3%;
+    position: sticky;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+    max-width: 1440px; 
+    height: auto;
+}
+
+
+.link-button-shevaa:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
+}
+
+
+
+/* BUTTON UNSERE GESCHICHTE DER Rassen*/
+.link-button {
+    line-height: 0%;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 3fr;
+    width: 75%;
+}
+
+
+.link-button:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
+}
+
+
+/* BUTTON HUNDEKUMPELS UND CO*/
+.link-button1 {
+    line-height: 0%;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 3fr;
+    width: 75%;
+}
+
+
+.link-button1:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+
+/* BUTTON NEUSTE FOTOS AUF INSTAGRAM*/
+.link-button2 {
+    line-height: 0%;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 3fr;
+    width: 75%;
+}
+
+
+.link-button2:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+
+/* BUTTON SABINES HUNDEHALSBÄNDER & LEINEN SHOP*/
+.link-button3 {
+    line-height: 0%;
+    vertical-align: middle;
+    border: 1px solid #000000;
+    border-radius: 0%, 5%;
+    background-color: #000000;
+    color: #ffffff;
+    text-decoration: solid;
+    cursor: pointer;
+    margin-top: 1%;
+    font-size: 3fr;
+    width: 75%;
+}
+
+
+.link-button3:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+/*BUTTON ZURÜCK*/
+.button-back {
+    border: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    background-color: #000000;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 75px;
+}
+
+
+.button-back:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+
+article {
+    width: 100%;
+    max-width: 100%;
+    background-color: rgb(88, 102, 25);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #000;
+    padding-top: 10px ;
+}
+
+
+h3 {
+    color: #000;
+}
+
+.h3 {
+    position: relative;
+    margin-top: 3%;
+    font-size: 120%;
+    color: #ffffff;
+}
+
+h4 {
+    color: #000;
+}
+
+.h4 {
+    margin-top: 3%;
+    font-size: 0.6em;
+    color: #000000;
+}
+
+
+
+footer {
+    width: 100%;
+    background-color: rgb(88, 102, 25);
+    min-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
