@@ -24,7 +24,6 @@ body {
 
 .background-dark {
     background-color: rgb(88, 102, 25);
-
     margin-top: 0px;
 }
 
@@ -76,13 +75,12 @@ h1 {
 
 
 hr {
-    z-index: 1;
     border-color: black;
     border-style: solid;
     margin-top: 0%;
     box-sizing: border-box;
     height: auto;
-    width: 1079.980px;
+    width: 1440px;
 }
 
 
@@ -137,6 +135,7 @@ section {
 }
 
 .link-button-neyla:hover {
+    z-index: 1;
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
@@ -163,6 +162,7 @@ section {
 
 
 .link-button-shevaa:hover {
+    z-index: 1;
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
