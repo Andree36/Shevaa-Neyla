@@ -1,13 +1,15 @@
 html {
-    display: flex;
     align-items: center;
-    justify-content: left;
+    justify-content: center;
+    max-width: 1440px;
+    height: auto;
 }
 
 
 
 
 head {
+    max-width: 1440px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -15,33 +17,29 @@ head {
 
 
 body {
-    display: flex;
     align-items: center;
-    justify-content: center;
     height: auto;
     max-width: 1440px;
 }
 
 .background-dark {
     background-color: rgb(88, 102, 25);
-    margin-top: 0px;
 }
 
 
 main {
     background-color: rgb(88, 102, 25);
-    min-height: auto;
-    max-height: 1440px;
+    max-width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    padding: headerHeight 0 0 0;
+    justify-content: center;
 }
 
 
 
 header {
+    max-width: 1440px;
     position: relative;
     top: 0;
     left: 0;
@@ -79,14 +77,15 @@ hr {
     border-style: solid;
     margin-top: 0%;
     box-sizing: border-box;
-    height: auto;
-    width: 1440px;
+    width: 1000px;
+    max-width: 1440px;
 }
 
 
 
 
 section {
+    max-width: 1440px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -94,17 +93,17 @@ section {
     align-items: center;
 }
 
-.border{
-    border:1px solid #000000;
+.border {
+    border: 1px solid #000000;
     position: sticky;
 }
 
 
 .inline {
     display: inline-block;
-    
-    
-    
+
+
+
 }
 
 /* BUTTON STECKBIRIEF NEYLA*/
@@ -123,6 +122,7 @@ section {
 
 
 .link-button-neyla {
+    justify-content: center;
     min-width: 37.3%;
     position: sticky;
     vertical-align: middle;
@@ -139,7 +139,7 @@ section {
     background-color: #7e7e7e;
     color: black;
     box-shadow: 0px 0px 60px rgb(214, 224, 18, 0.465);
-    
+
 }
 
 /* BUTTON STECKBIRIEF SHEVAA*/
@@ -148,6 +148,7 @@ section {
 
 
 .link-button-shevaa {
+    justify-content: center;
     min-width: 37.3%;
     position: sticky;
     vertical-align: middle;
@@ -156,7 +157,7 @@ section {
     color: #ffffff;
     text-decoration: solid;
     cursor: pointer;
-    max-width: 1440px; 
+    max-width: 1440px;
     height: auto;
 }
 
@@ -172,6 +173,7 @@ section {
 
 /* BUTTON UNSERE GESCHICHTE DER Rassen*/
 .link-button {
+    justify-content: center;
     line-height: 0%;
     vertical-align: middle;
     border: 1px solid #000000;
@@ -195,6 +197,7 @@ section {
 
 /* BUTTON HUNDEKUMPELS UND CO*/
 .link-button1 {
+    justify-content: center;
     line-height: 0%;
     vertical-align: middle;
     border: 1px solid #000000;
@@ -219,6 +222,7 @@ section {
 
 /* BUTTON NEUSTE FOTOS AUF INSTAGRAM*/
 .link-button2 {
+    justify-content: center;
     line-height: 0%;
     vertical-align: middle;
     border: 1px solid #000000;
@@ -243,6 +247,7 @@ section {
 
 /* BUTTON SABINES HUNDEHALSBÄNDER & LEINEN SHOP*/
 .link-button3 {
+    justify-content: center;
     line-height: 0%;
     vertical-align: middle;
     border: 1px solid #000000;
@@ -291,7 +296,7 @@ section {
 
 article {
     width: 100%;
-    max-width: 100%;
+    max-width: 1440px;
     background-color: rgb(88, 102, 25);
     display: flex;
     flex-direction: column;
@@ -301,7 +306,7 @@ article {
 
 h2 {
     color: #000;
-    padding-top: 10px ;
+    padding-top: 10px;
 }
 
 
