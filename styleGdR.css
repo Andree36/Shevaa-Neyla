@@ -1,0 +1,119 @@
+h1 {
+    max-width: 1440px;
+    margin-top: 0%;
+    color: #000;
+}
+
+.h1 {
+    font-size: 150%;
+    color: #000000;
+}
+
+.background-dark {
+    background-color: rgb(88, 102, 25);
+}
+
+.center {
+    justify-content: center;
+}
+
+.margin-bottom {
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+
+hr {
+    border-color: black;
+    border-style: solid;
+    margin-top: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1440px;
+}
+
+/*BUTTON ZURÜCK*/
+.button-back {
+    border: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 100%;
+    background: #000000;
+    position: fixed;
+    margin-top: 1%;
+    top: 0px;
+    left: 0px;
+    width: 750p;
+}
+
+
+.button-back:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+
+/*BUTTON Seitenanfang*/
+.button-top {
+    border: #000000;
+    color: rgb(255, 255, 255);
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    background-color: #000000;
+    margin-top: 1%;
+    left: 0px;
+    width: 75%;
+}
+
+
+.button-top:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.465);
+}
+
+/*BUTTON Rassen*/
+.button-breed {
+    color: rgb(0, 0, 0);
+    padding: 0% 0%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 100%;
+    background-color: rgb(214, 224, 18, 0);
+    margin-top: 1%;
+    left: 0px;
+    width: 75%;
+}
+
+
+.button-breed:hover {
+    background-color: #7e7e7e;
+    color: black;
+    box-shadow: 0px 0px 60px rgba(214, 224, 18, 0.825);
+}
+
+
+.h2 {
+    color: #000;
+    padding-top: 10px;
+}
+
+
+.h3 {
+    position: relative;
+    margin-top: 3%;
+    font-size: 120%;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(4, 233.33px) 233.33px 233.33px 233.33px;
+grid-template-rows: 1fr;
+Raster-Spalten-Lücke: 20px;
+Raster-Zeilen-Lücke: 0px;
+}
