@@ -33,19 +33,18 @@ hr {
 
 /*BUTTON ZURÜCK*/
 .button-back {
-    border: rgb(0, 0, 0);
+    border: #000000;
     color: rgb(255, 255, 255);
     padding: 0% 0%;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 100%;
-    background: #000000;
+    background-color: #000000;
     position: fixed;
-    margin-top: 1%;
     top: 0px;
     left: 0px;
-    width: 750p;
+    width: 75px;
 }
 
 
@@ -84,7 +83,7 @@ hr {
     text-align: center;
     text-decoration: none;
     font-size: 100%;
-    background-color: rgb(214, 224, 18, 0);
+    background-color: rgba(214, 224, 18, 0);
     margin-top: 1%;
     left: 0px;
     width: 75%;
@@ -98,22 +97,23 @@ hr {
 }
 
 
+
+
 .h2 {
-    color: #000;
-    padding-top: 10px;
-}
-
-
-.h3 {
     position: relative;
     margin-top: 3%;
     font-size: 120%;
+    padding: 1%;
 }
 
-.parent {
-display: grid;
-grid-template-columns: repeat(4, 233.33px) 233.33px 233.33px 233.33px;
-grid-template-rows: 1fr;
-Raster-Spalten-Lücke: 20px;
-Raster-Zeilen-Lücke: 0px;
+.h3 {
+    padding-top: 10px;
+    margin-left: 14%;
+    margin-top: 30%;
+}
+.h3-1 {
+    position: relative;
+    margin-top: 3%;
+    font-size: 120%;
+    color: #ffffff;
 }
